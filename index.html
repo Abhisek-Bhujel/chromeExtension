@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Red Wedding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="index.css"
+    />
+  </head>
+
+  <body id="background">
+    <div id="background">
+      <img id="backgroundImage" src="" alt="Image from the API" />
+    </div>
+
+    <div class="times">
+      <div class="time" id="hour"></div>
+      <div class="colon">:</div>
+      <div class="time" id="minute"></div>
+      <div class="colon">:</div>
+      <div class="time" id="second"></div>
+    </div>
+    <div id="greeting">
+      Hello
+      <input
+        type="text"
+        placeholder="Your Name"
+        autocomplete="on"
+        autofocus
+      />!!!
+    </div>
+    <div id="quotes">Here will be the quotes</div>
+    <div class="pomodoro">
+      <div style="color: red; font-size: 20px">Pomodoro Timer</div>
+      <div id="widget1" class="widget"></div>
+      <div id="start"><button>Start</button> : 25 Minutes Focus</div>
+
+      <div id="reset"><button>Reset</button> : 5 minutes Rest</div>
+    </div>
+  </body>
+
+  <script src="index.js" defer></script>
+</html>
